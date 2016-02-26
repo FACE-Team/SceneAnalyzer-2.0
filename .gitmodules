@@ -1,0 +1,3 @@
+[submodule "FACELibrary"]
+	path = FACELibrary
+	url = https://github.com/FACE-Team/FACELibrary
