@@ -4,3 +4,6 @@
 [submodule "FACETools"]
 	path = FACETools
 	url = https://github.com/FACE-Team/FACETools
+[submodule "DatabaseManager"]
+	path = DatabaseManager
+	url = https://github.com/FACE-Team/DatabaseManager
