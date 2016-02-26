@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Subjects>
+      <Subject>
+         <idKinect>101172</idKinect>						  	<!-- Unique ID assigned by the Kinect to each subject -->
+         <id>0</id>											  	<!-- Unique ID assigned by the SubjectRecognition Module -->
+         <name>
+            <string>unknown</string>							<!-- Name assigned using the SubjectRecognition Module -->
+         </name>
+         <gender>Male</gender>									<!-- Gender estimation provided by SHORE (Male/Female) -->
+         <age>41</age>											<!-- Age estimation provided by SHORE (years) -->
+         <speak_prob>0.8528574</speak_prob>						<!-- Speaking probability analyzing sound direction and subject position (0-1 normalized) -->
+         <gesture>6</gesture>									<!-- Gesture recognized (0 = none, 1 = raiseHand, 2 = YEAH, 3 = think, 4 = armsCrossed, 5 = pray, 6 = hand, 7 = OMG) -->
+         <uptime>22.3219948</uptime>							<!-- Time since when the subject has been detected (sec) provided by SHORE-->
+         <angle>1.73</angle>                                    <!-- Angular position of the subject with respect to the center of the FOV -->
+         <happiness_ratio>51.35417</happiness_ratio>			<!-- Facial expression analysis provided by SHORE (percent) -->
+         <anger_ratio>0</anger_ratio>							<!-- Facial expression analysis provided by SHORE (percent) -->
+         <sadness_ratio>0</sadness_ratio>				        <!-- Facial expression analysis provided by SHORE (percent) -->
+         <surprise_ratio>0</surprise_ratio>						<!-- Facial expression analysis provided by SHORE (percent) -->
+         <spineBase>  											<!-- Joint coordinates 3D position provided by Kinect SDK  (x, y, z) in meters -->
+            <X>0.03165051</X>
+            <Y>-0.4470751</Y>
+            <Z>1.15429139</Z>
+         </spineBase>
+         <spineMid>
+            <X>0.03477985</X>
+            <Y>-0.156438157</Y>
+            <Z>1.151118</Z>
+         </spineMid>
+         <neck>
+            <X>0.035906788</X>
+            <Y>0.125960067</Y>
+            <Z>1.13825119</Z>
+         </neck>
+         <head>
+            <X>0.0306322165</X>
+            <Y>0.279645115</Y>
+            <Z>1.10788763</Z>
+         </head>
+         <spineShoulder>
+            <X>0.0356651731</X>
+            <Y>0.0571898036</Y>
+            <Z>1.14338613</Z>
+         </spineShoulder>
+         <shoulder>
+            <left>
+               <X>-0.143488973</X>
+               <Y>0.0221376754</Y>
+               <Z>1.13825119</Z>
+            </left>
+            <right>
+               <X>0.224103764</X>
+               <Y>0.015624403</Y>
+               <Z>1.134919</Z>
+            </right>
+         </shoulder>
+         <elbow>
+            <left>
+               <X>-0.274343163</X>
+               <Y>-0.189143673</Y>
+               <Z>1.24066889</Z>
+            </left>
+            <right>
+               <X>0.354915023</X>
+               <Y>-0.207073539</Y>
+               <Z>1.162395</Z>
+            </right>
+         </elbow>
+         <wrist>
+            <left>
+               <X>-0.4573618</X>
+               <Y>-0.352560043</Y>
+               <Z>1.24572861</Z>
+            </left>
+            <right>
+               <X>0.507427335</X>
+               <Y>-0.33795318</Y>
+               <Z>1.067009</Z>
+            </right>
+         </wrist>
+         <hand>
+            <left>
+               <X>-0.513657153</X>
+               <Y>-0.408786654</Y>
+               <Z>1.22791886</Z>
+            </left>
+            <right>
+               <X>0.5837496</X>
+               <Y>-0.3647642</Y>
+               <Z>0.9888566</Z>
+            </right>
+         </hand>
+         <hip>
+            <left>
+               <X>-0.037584424</X>
+               <Y>-0.434788227</Y>
+               <Z>1.13288355</Z>
+            </left>
+            <right>
+               <X>0.0998335853</X>
+               <Y>-0.435936064</Y>
+               <Z>1.11733556</Z>
+            </right>
+         </hip>
+         <knee>
+            <left>
+               <X>-0.175805822</X>
+               <Y>-0.7116641</Y>
+               <Z>1.104249</Z>
+            </left>
+            <right>
+               <X>0.187614724</X>
+               <Y>-0.7313087</Y>
+               <Z>1.07010174</Z>
+            </right>
+         </knee>
+         <ankle>
+            <left>
+               <X>-0.3256465</X>
+               <Y>-1.02050292</Y>
+               <Z>1.100774</Z>
+            </left>
+            <right>
+               <X>0.284597516</X>
+               <Y>-1.0600692</Y>
+               <Z>1.04631674</Z>
+            </right>
+         </ankle>
+         <foot>
+            <left>
+               <X>-0.349901378</X>
+               <Y>-1.037887</Y>
+               <Z>0.9882555</Z>
+            </left>
+            <right>
+               <X>0.282861173</X>
+               <Y>-1.08042121</Y>
+               <Z>0.931318939</Z>
+            </right>
+         </foot>
+         <handTip>
+            <left>
+               <X>-0.5669793</X>
+               <Y>-0.46393913</Y>
+               <Z>1.21957016</Z>
+            </left>
+            <right>
+               <X>0.62731427</X>
+               <Y>-0.401495218</Y>
+               <Z>0.946489751</Z>
+            </right>
+         </handTip>
+         <thumb>
+            <left>
+               <X>-0.474170744</X>
+               <Y>-0.410811275</Y>
+               <Z>1.1450001</Z>
+            </left>
+            <right>
+               <X>0.620455742</X>
+               <Y>-0.380405843</Y>
+               <Z>0.9874375</Z>
+            </right>
+         </thumb>											
+         <LeftEyeClosed>No</LeftEyeClosed>					<!-- Data from FaceTraking module (Unknown No,Yes,Maybe) -->
+         <RightEyeClosed>No</RightEyeClosed>				
+         <LookingAway>No</LookingAway>						
+         <WearingGlasses>Yes</WearingGlasses>				
+         <MouthOpen>No</MouthOpen>							
+         <MouthMoved>Yes</MouthMoved>						
+         <Engaged>Yes</Engaged>								
+      </Subject>											<!-- end of Subject information -->
+   </Subjects>
+   <Objects>												<!-- Object information, [not yet implemented] -->
+      <ObjectScene>
+         <id>0</id>
+      </ObjectScene>
+   </Objects>												<!-- end of Object information -->
+   <Environment>											<!-- Environmental information -->
+      <soundAngle>-8.569982</soundAngle>					<!-- Angular value for sound source -->
+      <soundEstimatedX>-0.150699928</soundEstimatedX>       <!-- Linear value for sound source --> 
+      <soundAverageNorm>0.5186546</soundAverageNorm>		<!-- 0-1 normalized [0 = -90 db , 1 = 0 db] averaged value-->
+      <soundDecibelNorm>0.6810848</soundDecibelNorm> 		<!-- 0-1 normalized [0 = -90 db , 1 = 0 db] instantaneous value-->
+      <recognizedWord />									<!-- Word recognized by a potential Speech Recognition module -->
+      <saliency>											<!-- Saliency Point information provided by the Saliency module -->
+         <position>											<!-- ( x , y ) position in pixels -->
+            <float>1518</float>
+            <float>829</float>
+         </position>
+         <saliencyWeight>1</saliencyWeight>					<!-- Importance of the point [currently not used] -->
+      </saliency>
+      <toi> 												<!-- Environmental data gathered by TOI Shield, please visit http://www.thingsoninternet.biz/products/toi-shield/ (work in progress)-->
+         <mic>0</mic>										<!-- Sound Volume -->
+         <lux>0</lux>										<!-- Luminosity -->
+         <IR>0</IR>											<!-- InfraRed -->
+         <touch>false</touch>								<!-- Touch Sensor (true / false) -->
+         <temp>0</temp>										<!-- Temperature -->
+      </toi>
+      <resolution>											<!-- Resolution of the camera used as vision device in pixels 0--> 
+         <Width>1920</Width>
+         <Height>1080</Height>
+      </resolution>
+      <numberSubject>1</numberSubject>						<!-- absolute number of subject present in the FOV -->
+	  <ambience />											<!-- Information about the world that can influence emotional state of the robot (work in progress) -->
+   </Environment>											<!-- end of Environment information-->
+</Scene>
