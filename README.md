@@ -22,19 +22,24 @@ Then compile the FACE Tools project and DataBaseManager Project
 # TROUBLESHOOTING
 
 Please ensure that you are using the English (UK) Format in 'Region and Language' from Control Panel, otherwise signs and points for decimals will disappear from the data provided by the SA.
-In our tests we experienced several difficulties using virtual machines. Therefore, if possible, don’t use them. There are problems with Windows libraries of the Kinect and the functioning is not guaranteed.
+In our tests we experienced several difficulties using virtual machines. Therefore, if possible, donâ€™t use them. There are problems with Windows libraries of the Kinect and the functioning is not guaranteed.
 
 # ID ASSIGNMENT
 
 The assignment of ID and name to detected subjects in the scene is managed by the SubjectRecognitionQRCode module. This module can be activated from the SceneAnalyzer control panel.
 The SubjectRecognitionQRCode module read the QRcode present on the body of subjects and queries a MySQL database through the DatabaseManager module: if the subject is not already present in the database, the QR module opens a pop-up window asking for the name of the new detected subject; 15 secs is the time limit for digiting the information since the moment in which the subject is detected, if no information is provided within the expected time the pop-up window will end automatically without interrupting the smooth functioning of the program.
 
-#SHORE
+#Facial Features Analysis Module
 
-Information about the emotional state of the subjects is estimated through facial expressions analysis performed through the sophisticated high-speed object recognition engine called SHORE, developed by Fraunhofer Institute for Integrated Circuits 
+Information about the emotional state of the subjects is estimated through facial expressions analysis performed through the sophisticated high-speed object recognition engine called SHORE. For more information please refere to the references below: 
+
+Fraunhofer Institute website (http://www.fraunhofer.de/en.html)
+
+C. KÃ¼blbeck, and E. Andreas. "Face detection and tracking in video sequences using the modifiedcensus transformation." Image and Vision Computing 24.6 (2006): 564-572.
+
 
 ###Note about SHORE license
-The software can be licensed based on individual or bulk license contracts. The University of Pisa has a Software Evaluation License agreement with Fraunhofer Institute (http://www.fraunhofer.de/en.html) for the employment of SHORE™ software. 
+The software can be licensed based on individual or bulk license contracts. The University of Pisa has a Software Evaluation License agreement with Fraunhofer Institute  for the employment of SHOREâ„¢ software. 
 In order to be used, each user will have to directly ask for the license from the same institute. 
 
 
@@ -70,10 +75,20 @@ In order to be used, each user will have to directly ask for the license from th
 	journal = {Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)},
 	volume = {8064 LNAI},
 	pages = {393-395},
-	abstract = {Two perspectives define a human being in his social sphere: appearance and behaviour. The aesthetic aspect is the first significant element that impacts a communication while the behavioural aspect is a crucial factor in evaluating the ongoing interaction. In particular, we have more expectations when interacting with anthropomorphic robots and we tend to define them believable if they respect human social conventions. Therefore researchers are focused both on increasingly anthropomorphizing the embodiment of the robots and on giving the robots a realistic behaviour. This paper describes our research on making a humanoid robot socially interacting with human beings in a believable way. © 2013 Springer-Verlag Berlin Heidelberg.},
-note = {cited By 1},
-pubstate = {published},
-tppubtype = {article}
+	note = {cited By 1},
+	pubstate = {published},
+	tppubtype = {article}
+}
+
+@article{zaraki2014designing,
+  title={Designing and evaluating a social gaze-control system for a humanoid robot},
+  author={Zaraki, Aolfazl and Mazzei, Daniele and Giuliani, Manuel and De Rossi, Danilo},
+  journal={Human-Machine Systems, IEEE Transactions on},
+  volume={44},
+  number={2},
+  pages={157--168},
+  year={2014},
+  publisher={IEEE}
 }
 
 # LICENSE
