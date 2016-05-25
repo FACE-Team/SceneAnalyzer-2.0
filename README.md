@@ -1,7 +1,7 @@
 # SceneAnalyzer-2.0
 Scene Analyzer is a unique perception system able to detect and analyse a wide range of human and environment relevant features with the awareness of real-world contents, and compatible with different robotics platforms. As shown in Figure below, SA has several standard sub-modules and layers which allows researchers in HRI area to perform complex perception tasks with a minimum effort just by using SA as a perfect and unique out-of-the-box perception toolkit.   
 
-![Alt text](/SADiagram.png?raw=true "SceneAnalyzer Architecture")
+![Alt text](/SAdiagram.png?raw=true "SceneAnalyzer Architecture")
 
 ##### Copyright FACE Team, Research Center E. Piaggio, Univeristy of Pisa 2016 www.faceteam.it
 
