@@ -1,7 +1,19 @@
 # SceneAnalyzer-2.0
-Perception System for Social Robots
+Scene Analyzer is a unique perception system able to detect and analyse a wide range of human and environment relevant features with the awareness of real-world contents, and compatible with different robotics platforms. As shown in Figure below, SA has several standard sub-modules and layers which allows researchers in HRI area to perform complex perception tasks with a minimum effort just by using SA as a perfect and unique out-of-the-box perception toolkit.   
+
+![Alt text](/SADiagram.png?raw=true "SceneAnalyzer Architecture")
 
 ##### Copyright FACE Team, Research Center E. Piaggio, Univeristy of Pisa 2016 www.faceteam.it
+
+#NEW TECHNICAL FEATURES 
+
+The new technical features presented in SA 2.0 are as follows: 
+*Modularity: SA 2.0  has a modular structure that allows developer to decompose the perception system into a number of components that can be mixed and matched in a variety of configurations, in order to adapt the system to a specific robotic framework.
+ *Interconnectivity: the system components have the capabilities to connect, interact, or exchange resources and information in some ways, in order to infer and deliver the real-world content rather than only detect features.
+ *Extendability: it allows extending perception system by easy adding/removing or replacing system components and the corresponding software libraries without affecting other modules.
+ *Communication and platform independent: it allows perception system to transfer all the extracted perceptual information to other machines running in different operation system.
+
+
 
 # REQUIREMENTS:
 
@@ -51,6 +63,9 @@ In order to be used, each user will have to directly ask for the license from th
  - /SceneAnalyzer/LookAt:i
 
 [the name of these ports can be modified, and new ports can be instantiated, in the 'app.config' whithin the SceneAnalyzer Project]
+
+![Alt text](/SAEA.png?raw=true "SceneAnalyzer Enviromental Analysis")
+![Alt text](/SA_subjectAnalysis.png?raw=true "SceneAnalyzer Subject Analysis")
 
 # Version
 2.0
