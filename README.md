@@ -1,14 +1,15 @@
-# SceneAnalyzer-2.0
+# SceneAnalyzer ver.2.0
+##### Copyright FACE Team, Research Center E. Piaggio, Univeristy of Pisa 2016 www.faceteam.it
+
 Scene Analyzer is a unique perception system able to detect and analyse a wide range of human and environment relevant features with the awareness of real-world contents, and compatible with different robotics platforms. As shown in Figure below, SA has several standard sub-modules and layers which allows researchers in HRI area to perform complex perception tasks with a minimum effort just by using SA as a perfect and unique out-of-the-box perception toolkit.   
 
 ![Alt text](/SAdiagram.png?raw=true "SceneAnalyzer Architecture")
 
-##### Copyright FACE Team, Research Center E. Piaggio, Univeristy of Pisa 2016 www.faceteam.it
 
 #NEW TECHNICAL FEATURES 
 
 The new technical features presented in SA 2.0 are as follows: 
-* Modularity: SA 2.0  has a modular structure that allows developer to decompose the perception system into a number of components that can be mixed and matched in a variety of configurations, in order to adapt the system to a specific robotic framework.
+ * Modularity: SA 2.0  has a modular structure that allows developer to decompose the perception system into a number of components that can be mixed and matched in a variety of configurations, in order to adapt the system to a specific robotic framework.
  * Interconnectivity: the system components have the capabilities to connect, interact, or exchange resources and information in some ways, in order to infer and deliver the real-world content rather than only detect features.
  * Extendability: it allows extending perception system by easy adding/removing or replacing system components and the corresponding software libraries without affecting other modules.
  * Communication and platform independent: it allows perception system to transfer all the extracted perceptual information to other machines running in different operation system.
@@ -41,7 +42,7 @@ In our tests we experienced several difficulties using virtual machines. Therefo
 The assignment of ID and name to detected subjects in the scene is managed by the SubjectRecognitionQRCode module. This module can be activated from the SceneAnalyzer control panel.
 The SubjectRecognitionQRCode module read the QRcode present on the body of subjects and queries a MySQL database through the DatabaseManager module: if the subject is not already present in the database, the QR module opens a pop-up window asking for the name of the new detected subject; 15 secs is the time limit for digiting the information since the moment in which the subject is detected, if no information is provided within the expected time the pop-up window will end automatically without interrupting the smooth functioning of the program.
 
-#Facial Features Analysis Module
+#FACIAL FEATURES ANALYSIS MODULE
 
 Information about the emotional state of the subjects is estimated through facial expressions analysis performed through the sophisticated high-speed object recognition engine called SHORE. For more information please refere to the references below: 
 
@@ -50,7 +51,7 @@ Fraunhofer Institute website (http://www.fraunhofer.de/en.html)
 C. Küblbeck, and E. Andreas. "Face detection and tracking in video sequences using the modifiedcensus transformation." Image and Vision Computing 24.6 (2006): 564-572.
 
 
-###Note about SHORE license
+###NOTE ABOUT SHORE LICENSE
 The software can be licensed based on individual or bulk license contracts. The University of Pisa has a Software Evaluation License agreement with Fraunhofer Institute  for the employment of SHORE™ software. 
 In order to be used, each user will have to directly ask for the license from the same institute. 
 
@@ -64,11 +65,10 @@ In order to be used, each user will have to directly ask for the license from th
 
 [the name of these ports can be modified, and new ports can be instantiated, in the 'app.config' whithin the SceneAnalyzer Project]
 
+# ScreenShot of SA 2.0
 ![Alt text](/SAEA.png?raw=true "SceneAnalyzer Enviromental Analysis")
 ![Alt text](/SA_subjectAnalysis.png?raw=true "SceneAnalyzer Subject Analysis")
 
-# Version
-2.0
 
 #PUBLICATIONS
 
