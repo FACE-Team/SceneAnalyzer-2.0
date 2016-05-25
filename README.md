@@ -8,10 +8,10 @@ Scene Analyzer is a unique perception system able to detect and analyse a wide r
 #NEW TECHNICAL FEATURES 
 
 The new technical features presented in SA 2.0 are as follows: 
-*Modularity: SA 2.0  has a modular structure that allows developer to decompose the perception system into a number of components that can be mixed and matched in a variety of configurations, in order to adapt the system to a specific robotic framework.
- *Interconnectivity: the system components have the capabilities to connect, interact, or exchange resources and information in some ways, in order to infer and deliver the real-world content rather than only detect features.
- *Extendability: it allows extending perception system by easy adding/removing or replacing system components and the corresponding software libraries without affecting other modules.
- *Communication and platform independent: it allows perception system to transfer all the extracted perceptual information to other machines running in different operation system.
+* Modularity: SA 2.0  has a modular structure that allows developer to decompose the perception system into a number of components that can be mixed and matched in a variety of configurations, in order to adapt the system to a specific robotic framework.
+ * Interconnectivity: the system components have the capabilities to connect, interact, or exchange resources and information in some ways, in order to infer and deliver the real-world content rather than only detect features.
+ * Extendability: it allows extending perception system by easy adding/removing or replacing system components and the corresponding software libraries without affecting other modules.
+ * Communication and platform independent: it allows perception system to transfer all the extracted perceptual information to other machines running in different operation system.
 
 
 
