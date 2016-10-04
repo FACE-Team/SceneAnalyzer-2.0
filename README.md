@@ -1,4 +1,4 @@
-# SceneAnalyzer ver.2.0
+﻿# SceneAnalyzer ver.2.0
 ##### Copyright FACE Team, Research Center E. Piaggio, Univeristy of Pisa 2016 www.faceteam.it
 
 Scene Analyzer is a unique perception system able to detect and analyse a wide range of human and environment relevant features with the awareness of real-world contents, and compatible with different robotics platforms. As shown in Figure below, SA has several standard sub-modules and layers which allows researchers in HRI area to perform complex perception tasks with a minimum effort just by using SA as a perfect and unique out-of-the-box perception toolkit.   
@@ -18,11 +18,14 @@ The new technical features presented in SA 2.0 are as follows:
 
 # REQUIREMENTS:
 
-- Visual Studio v2012
 - .NET v4.5
-- Yarp v2.3.63 (PRE-COMPILED VERSION)
+- Yarp v2.3.63 (PRE-COMPILED VERSION) ( https://sourceforge.net/projects/yarp0/files/yarp2/yarp-2.3.63/windows/yarp_2.3.63_v11_x86_0.exe/download)
 - Kinect XBOX ONE for Windows and related drivers
 - Kinect SDK v2.0
+
+#
+http://support.xbox.com/en-us/xbox-on-windows/accessories/kinect-for-windows-v2-known-issues
+https://social.msdn.microsoft.com/Forums/it-IT/bb379e8b-4258-40d6-92e4-56dd95d7b0bb/confirmed-list-of-usb-30-pcie-cardslaptopsconfigurations-which-work-for-kinect-v2-during?forum=kinectv2sdk
 
 #COMPARISON BETWEEN VERSIONS
 In this new release the most important change is modularity: each module of SceneAnalyzer (i.e. SHORE, Saliency, SubjectRecognitionQRCode) is indipendent and it can be individually executed. 
