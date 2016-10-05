@@ -15,15 +15,15 @@ The new technical features presented in SA 2.0 are as follows:
  * Extendability: it allows extending perception system by easy adding/removing or replacing system components and the corresponding software libraries without affecting other modules.
  * Communication and platform independent: it allows perception system to transfer all the extracted perceptual information to other machines running in different operation system.
 
-[![Alt text for your video](https://img.youtube.com/vi/px3nTTn6sUw/0.jpg)](https://www.youtube.com/watch?v=px3nTTn6sUw)
+[![Alt text for your video](http://imgur.com/2oDiCsx)](https://www.youtube.com/watch?v=px3nTTn6sUw)
 
 # REQUIREMENTS:
 - visual Studio 2012
 - .NET v4.5
-- Yarp v2.3.63 [PRE-COMPILE](https://sourceforge.net/projects/yarp0/files/yarp2/yarp-2.3.63/windows/yarp_2.3.63_v11_x86_0.exe/download){:target="_blank"}
+- Yarp v2.3.63 [PRE-COMPILE](https://sourceforge.net/projects/yarp0/files/yarp2/yarp-2.3.63/windows/yarp_2.3.63_v11_x86_0.exe/download)
 - Kinect XBOX ONE for Windows and related drivers
 - Kinect SDK v2.0
-- MySql Connect 6.9.9 [link](http://dev.mysql.com/downloads/file/?id=463758){:target="_blank"}
+- MySql Connect 6.9.9 [link](http://dev.mysql.com/downloads/file/?id=463758)
 - Microsoft Speech [link](https://www.microsoft.com/en-us/download/confirmation.aspx?id=27225)
 - Microsoft Expression Blend [link](https://www.microsoft.com/it-it/download/confirmation.aspx?id=10801)
 
