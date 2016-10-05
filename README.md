@@ -6,6 +6,7 @@ Scene Analyzer is a unique perception system able to detect and analyse a wide r
 ![Alt text](/SAdiagram.png?raw=true "SceneAnalyzer Architecture")
 
 
+
 #NEW TECHNICAL FEATURES 
 
 The new technical features presented in SA 2.0 are as follows: 
@@ -14,16 +15,19 @@ The new technical features presented in SA 2.0 are as follows:
  * Extendability: it allows extending perception system by easy adding/removing or replacing system components and the corresponding software libraries without affecting other modules.
  * Communication and platform independent: it allows perception system to transfer all the extracted perceptual information to other machines running in different operation system.
 
-
+[![Alt text for your video](https://img.youtube.com/vi/px3nTTn6sUw/0.jpg)](https://www.youtube.com/watch?v=px3nTTn6sUw)
 
 # REQUIREMENTS:
-
+- visual Studio 2012
 - .NET v4.5
-- Yarp v2.3.63 (PRE-COMPILED VERSION) ( https://sourceforge.net/projects/yarp0/files/yarp2/yarp-2.3.63/windows/yarp_2.3.63_v11_x86_0.exe/download)
+- Yarp v2.3.63 [PRE-COMPILE](https://sourceforge.net/projects/yarp0/files/yarp2/yarp-2.3.63/windows/yarp_2.3.63_v11_x86_0.exe/download){:target="_blank"}
 - Kinect XBOX ONE for Windows and related drivers
 - Kinect SDK v2.0
+- MySql Connect 6.9.9 [link](http://dev.mysql.com/downloads/file/?id=463758){:target="_blank"}
+- Microsoft Speech [link](https://www.microsoft.com/en-us/download/confirmation.aspx?id=27225)
+- Microsoft Expression Blend [link](https://www.microsoft.com/it-it/download/confirmation.aspx?id=10801)
 
-#
+###NOTE ABOUT USB3.0 CONTROLLERS FOR KINECT
 http://support.xbox.com/en-us/xbox-on-windows/accessories/kinect-for-windows-v2-known-issues
 https://social.msdn.microsoft.com/Forums/it-IT/bb379e8b-4258-40d6-92e4-56dd95d7b0bb/confirmed-list-of-usb-30-pcie-cardslaptopsconfigurations-which-work-for-kinect-v2-during?forum=kinectv2sdk
 
@@ -39,6 +43,8 @@ Then compile the FACE Tools project and DataBaseManager Project
 
 Please ensure that you are using the English (UK) Format in 'Region and Language' from Control Panel, otherwise signs and points for decimals will disappear from the data provided by the SA.
 In our tests we experienced several difficulties using virtual machines. Therefore, if possible, don’t use them. There are problems with Windows libraries of the Kinect and the functioning is not guaranteed.
+
+
 
 # ID ASSIGNMENT
 
