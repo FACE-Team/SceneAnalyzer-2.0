@@ -28,8 +28,8 @@ The new technical features presented in SA 2.0 are as follows:
 - Microsoft Expression Blend [link](https://www.microsoft.com/it-it/download/confirmation.aspx?id=10801)
 
 ###NOTE ABOUT USB3.0 CONTROLLERS FOR KINECT
-http://support.xbox.com/en-us/xbox-on-windows/accessories/kinect-for-windows-v2-known-issues
-https://social.msdn.microsoft.com/Forums/it-IT/bb379e8b-4258-40d6-92e4-56dd95d7b0bb/confirmed-list-of-usb-30-pcie-cardslaptopsconfigurations-which-work-for-kinect-v2-during?forum=kinectv2sdk
+- http://support.xbox.com/en-us/xbox-on-windows/accessories/kinect-for-windows-v2-known-issues
+- https://social.msdn.microsoft.com/Forums/it-IT/bb379e8b-4258-40d6-92e4-56dd95d7b0bb/confirmed-list-of-usb-30-pcie-cardslaptopsconfigurations-which-work-for-kinect-v2-during?forum=kinectv2sdk
 
 #COMPARISON BETWEEN VERSIONS
 In this new release the most important change is modularity: each module of SceneAnalyzer (i.e. SHORE, Saliency, SubjectRecognitionQRCode) is indipendent and it can be individually executed. 
