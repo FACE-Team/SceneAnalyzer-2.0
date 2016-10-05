@@ -15,7 +15,7 @@ The new technical features presented in SA 2.0 are as follows:
  * Extendability: it allows extending perception system by easy adding/removing or replacing system components and the corresponding software libraries without affecting other modules.
  * Communication and platform independent: it allows perception system to transfer all the extracted perceptual information to other machines running in different operation system.
 
-[![Alt text for your video](http://imgur.com/2oDiCsx)](https://www.youtube.com/watch?v=px3nTTn6sUw)
+[![Alt text for your video](http://imgur.com/2oDiCsx.png)](https://www.youtube.com/watch?v=px3nTTn6sUw)
 
 # REQUIREMENTS:
 - visual Studio 2012
